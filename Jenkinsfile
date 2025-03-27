@@ -2,7 +2,7 @@
 
 config = [
     dockerImage: false,
-    mvnVersion: '3.9.9-amazoncorretto-17-debian-git'
+    mvnVersion: '3.9-eclipse-temurin-17'
 ]
 
 javaMavenPipeline(config)
